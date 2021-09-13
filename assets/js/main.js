@@ -19,24 +19,19 @@ const app = Vue.createApp({
       correctAnswer: {
         stage1: {
           q1: 'あああ',
+          q2: 'aaa',
         },
         stage2: {
           q1: 'いいい',
            q2: 'えええ',
-           q3: 'おおお'
+           q3: 'おおお',
+           q4: 'iii',
         },
         stage3: {
           q1: 'ううう',
           // q2: 'かかか',
           // q3: 'ききき',
         },
-        stage4: {
-          q1: 'aaa',
-        },
-        stage5: {
-          q1: 'iii',
-        }
-      },
 
       /* それぞれの問題が正解かどうか
       *  ex. 問題2-3を追加する場合は配列にfalseを追加します。
