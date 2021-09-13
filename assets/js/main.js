@@ -39,34 +39,23 @@ const app = Vue.createApp({
       answer: {
         stage1: [
           false,
+          false,
         ],
         stage2: [
           false, // 2-1
            false, // 2-2
-           false, // 2-3
+           //false, // 2-3
         ],
         stage3: [
           false, // 3-1
           // false, // 3-2
           // false, // 3-3
         ],
-        stage4: [
-          false, // 4-1
-           false, // 4-2
-           false, // 4-3
-        ],
-        stage5: [
-          false, // 5-1
-          // false, // 5-2
-          // false, // 5-3
-      },
-
       /* ステージの問題が全て正解かどうか */
       clear: {
         stage1: false,
         stage2: false,
         stage3: false,
-        stage4: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -75,7 +64,6 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
-        stage4: false,
       },
     }
   },
