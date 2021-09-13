@@ -68,7 +68,7 @@ Youtube貼り付けここまで -->
               1番麺の引数 $event は正解、不正解の判定を受け取る変数です。
               []、()の間違い、''の抜けがあると動きません。
             ------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage４']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage４']['q1']" v-on:answer-input="answerInput($event, 'stage4', 1)"></answer-input>
 
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
           </div>
@@ -148,7 +148,7 @@ Youtube貼り付けここまで -->
                     <img src="assets/images/stage.png" alt="">
                   </figure>
 
-                  <answer-input v-bind:correct="correctAnswer['stage2']['q2']" v-on:answer-input="answerInput($event, 'stage2', 2)"></answer-input>
+                  <answer-input v-bind:correct="correctAnswer['stage2']['q2']" v-on:answer-input="answerInput($event, 'stage5', 2)"></answer-input>
                   <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる ></a>
                 　
                 </div>
@@ -183,7 +183,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">STAGE：5　クリア！</div>
               <div class="clear-message__content">黒板の指示に従い、<br>
                 次のステージの謎を解こう！</div>
-                <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
+                <button v-on:click="nextStage('stage25')" onclick="location.href='#sectionStage36'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
         </section>
