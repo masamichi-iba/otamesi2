@@ -57,10 +57,13 @@ const app = Vue.createApp({
         ]
         stage4: [
           false, // 4-1
-          ]
+           false, // 4-2
+           false, // 4-3
+        ],
         stage5: [
-          false // 5-1
-          ]
+          false, // 5-1
+          // false, // 5-2
+          // false, // 5-3
       },
 
       /* ステージの問題が全て正解かどうか */
