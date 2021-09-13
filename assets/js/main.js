@@ -33,6 +33,9 @@ const app = Vue.createApp({
         stage4: {
           q1: 'aaa',
         }
+        stage5: {
+          q1: 'iii',
+        }
       },
 
       /* それぞれの問題が正解かどうか
@@ -54,6 +57,9 @@ const app = Vue.createApp({
         ]
         stage4: [
           false, // 4-1
+          ]
+        stage5: [
+          false // 5-1
           ]
       },
 
