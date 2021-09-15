@@ -44,18 +44,11 @@ const app = Vue.createApp({
           // false, // 2-2
           // false, // 2-3
         ],
-        stage3: [
-          false, // 3-1
-          // false, // 3-2
-          // false, // 3-3
-        ]
-      },
 
       /* ステージの問題が全て正解かどうか */
       clear: {
         stage1: false,
         stage2: false,
-        stage3: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -63,7 +56,6 @@ const app = Vue.createApp({
       */
       next: {
         stage1: false,
-        stage2: false,
       },
     }
   },
